@@ -6,6 +6,12 @@
 
 ---
 
+# Handwritten Report
+
+📄 https://drive.google.com/file/d/12fqAwXs2PdjmT01VmlYvhHdWtvKTDoY-/view?usp=drive_link
+
+---
+
 ## Introduction
 
 This project focuses on Environmental Sound Classification using deep learning techniques. The objective is to classify audio recordings into one of 50 sound categories such as dog barking, bird chirping, thunderstorm, vacuum cleaner, crow sounds, can opening sounds, and many other environmental audio events.
@@ -88,12 +94,6 @@ This is a Multi-Class Classification problem.
 <p align="center">
 <img src="results/transformer_cm.png" width="1000">
 </p>
-
----
-
-# Handwritten Report
-
-📄 https://drive.google.com/file/d/12fqAwXs2PdjmT01VmlYvhHdWtvKTDoY-/view?usp=drive_link
 
 ---
 
