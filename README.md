@@ -310,16 +310,7 @@ Residual Connection
 
 The Transformer computes attention using:
 
-$$
-Attention(Q,K,V)
-================
-
-Softmax
-\left(
-\frac{QK^T}{\sqrt{d_k}}
-\right)V
-$$
-
+$$\text{Attention}(Q,K,V)=\text{Softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
 ---
 
 ## CLS Token
@@ -335,21 +326,16 @@ After the Transformer encoder, the CLS token representation is used for final cl
 
 ---
 
-# Loss Function
+## Loss Function
 
 Since this is a multi-class classification problem, Cross Entropy Loss is used.
 
-$$
-L
-=
--\sum_i y_i \log(\hat{y}_i)
-$$
+$$L=-\sum_i y_i\log(\hat{y}_i)$$
 
 where:
 
-* y = Ground Truth Label
-* ŷ = Predicted Probability
-
+- $y_i$ = Ground Truth Label
+- $\hat{y}_i$ = Predicted Probability
 ---
 
 # Training Configuration
