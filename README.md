@@ -1,5 +1,11 @@
 # Environmental Sound Classification using 1D CNN and CNN-Transformer Hybrid
 
+# Google Colab
+
+📄 https://drive.google.com/file/d/1pFEE8fAL5o1H6saZCuOrojDP60VlOM8L/view?usp=drive_link
+
+---
+
 ## Introduction
 
 This project focuses on Environmental Sound Classification using deep learning techniques. The objective is to classify audio recordings into one of 50 sound categories such as dog barking, bird chirping, thunderstorm, vacuum cleaner, crow sounds, can opening sounds, and many other environmental audio events.
@@ -56,7 +62,7 @@ This is a Multi-Class Classification problem.
 ## CNN Training Loss
 
 <p align="center">
-<img src="assets/cnn_loss_curve.png" width="900">
+<img src="results/cnn_loss.png" width="1000">
 </p>
 
 ---
@@ -64,7 +70,7 @@ This is a Multi-Class Classification problem.
 ## CNN Confusion Matrix
 
 <p align="center">
-<img src="assets/cnn_confusion_matrix.png" width="900">
+<img src="results/cnn_cm.png" width="1000">
 </p>
 
 ---
@@ -72,7 +78,7 @@ This is a Multi-Class Classification problem.
 ## CNN + Transformer Training Loss
 
 <p align="center">
-<img src="assets/transformer_loss_curve.png" width="900">
+<img src="results/transformer_loss.png" width="1000">
 </p>
 
 ---
@@ -80,38 +86,14 @@ This is a Multi-Class Classification problem.
 ## CNN + Transformer Confusion Matrix
 
 <p align="center">
-<img src="assets/transformer_confusion_matrix.png" width="900">
+<img src="results/transformer_cm.png" width="1000">
 </p>
-
----
-
-# Google Colab
-
-🔗 PASTE_COLAB_LINK
 
 ---
 
 # Handwritten Report
 
-📄 PASTE_HANDWRITTEN_REPORT_LINK
-
----
-
-# Trained Models
-
-## 1D CNN
-
-📦 PASTE_CNN_MODEL_LINK
-
-## CNN + Transformer
-
-📦 PASTE_TRANSFORMER_MODEL_LINK
-
----
-
-# Test Audio Samples
-
-🎵 PASTE_TEST_AUDIO_FOLDER_LINK
+📄 https://drive.google.com/file/d/12fqAwXs2PdjmT01VmlYvhHdWtvKTDoY-/view?usp=drive_link
 
 ---
 
