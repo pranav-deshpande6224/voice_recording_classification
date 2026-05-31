@@ -46,8 +46,8 @@ This is a Multi-Class Classification problem.
 
 | Model             | Accuracy   | F1 Score   | ROC-AUC    |
 | ----------------- | ---------- | ---------- | ---------- |
-| 1D CNN            | ADD_RESULT | ADD_RESULT | ADD_RESULT |
-| CNN + Transformer | ADD_RESULT | ADD_RESULT | ADD_RESULT |
+| 1D CNN            | 0.5075     | 0.4931     | 0.9577     |
+| CNN + Transformer | 0.45       | 0.44       | 0.94       |
 
 ---
 
